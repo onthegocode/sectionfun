@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.section-features {
+  padding: 80px 0;
+}
+html {
+  font-family: "Lato", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+h2,
+h3 {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 180%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+h2::after {
+  display: block;
+  margin: 0 auto;
+  content: " ";
+  width: 100px;
+  height: 2px;
+  background-color: purple;
+  margin-top: 30px;
+}
+h3 {
+  font-size: 110%;
+  margin-bottom: 15px;
+}
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.long-copy {
+  width: 70%;
+  margin-left: 15%;
+  line-height: 145%;
+  margin-bottom: 60px;
+}
+.box {
+  padding: 1%;
+  margin-bottom: 80px;
+}
+.box p {
+  font-size: 90%;
+  line-height: 145%;
+}
+.big-icon {
+  font-size: 340%;
+  color: purple;
+  margin-bottom: 10px;
+}
+.super-big-icon {
+  font-size: 500%;
+  color: purple;
+}
+.center {
+  text-align: center;
+  margin-bottom: 120px;
+}
